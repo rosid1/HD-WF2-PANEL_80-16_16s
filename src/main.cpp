@@ -79,11 +79,11 @@ _pins_x1 // pin mapping for port X1
 void loop (){
   led_scroll_right("HELLO,BLUE",150);
   delay(1000);
-  led_scroll_left("VACANT",150);
+  led_scroll_left("WHAT",150);
   delay(1000);
-  led_scroll_up("BB1234",150);
+  led_scroll_up("123",150);
   delay(1000);
-  led_scroll_down("ENGAGED",150);
+  led_scroll_down("HEY",150);
   delay(1000);
   display_switching_texts();
   delay(1000);
@@ -191,9 +191,9 @@ void display_switching_texts() {
 
     // Array of texts to display
     const char *texts[] = {
-        "BLUEBIRD",
-        "EZPAY",
-        "BS7890"
+        "WHAT",
+        "PAY2WIN",
+        "1234"
     };
 
     // Loop to display each text for 3 seconds
